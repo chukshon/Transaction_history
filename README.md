@@ -31,29 +31,28 @@ type Query {
 ```
 
 The server operates on:
-
-```
-http://localhost:9002/graphql
-```
+[http://localhost:9002/graphql](http://localhost:9002/graphql)
 
 # `Frontend`
 
-#### `Packages`
+##### `Packages`
 
 [React & ReactDOM 18.2.0](https://reactjs.org/)<br>
 
-[urql 2.2.2](https://formidable.com/open-source/urql/)<br>
+[Emotion](https://emotion.sh/docs/introduction): Emotion is a library designed for writing css styles with JavaScript<br>
 
-[Graphql 16.5.0](https://graphql.org/)<br>
+[urql 2.2.2](https://formidable.com/open-source/urql/): The highly customizable and versatile GraphQL client for React<br>
 
-[TypeScript 4.7.4](https://www.typescriptlang.org/)<br>
+[Graphql 16.5.0](https://graphql.org/): A query language for your API<br>
 
-[Material UI 5.8.7](https://mui.com/)
+[TypeScript 4.7.4](https://www.typescriptlang.org/): Adds types to JavaScript to help you speed up the development by catching errors before you even run the JavaScript code.<br>
+
+[Material UI 5.8.7](https://mui.com/): It includes a comprehensive collection of prebuilt components that are ready for use in production right out of the box.
 <br>
 
-[React-icons 4.4.0](https://react-icons.github.io/react-icons/)<br>
+[React-icons 4.4.0](https://react-icons.github.io/react-icons/): Include popular icons in your React projects easily <br>
 
-#### `Usage`
+##### `Usage`
 
 To install dependencies:
 
@@ -70,15 +69,15 @@ npm start or yarn start
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## `Functionalities`
+### `Functionalities`
 
 1. A user can filter by transaction type(deposit or withdrawal), transaction status(successful or failed) and date(2017- 2021)
 
-2. A user can search by transaction name, type or status and date
+2. A user can search by transaction name, type or status
 
 3. Urql was used for consuming the backend api
 
-## `Helper Functions`
+### `Helper Functions`
 
 Two helper functions were used
 
@@ -86,6 +85,6 @@ Two helper functions were used
 
 2. Year Grouping: This function takes in an array of data and groups it by year.
 
-## `Improvement Suggestion`
+### `Improvement Suggestion`
 
 I'll suggest a pagination or load more button is added to each date group there by limiting the amount of data shown to just 5-7 transaction history per date group. This way, a user gets to see more transaction history by clicking the load more button or paginating
