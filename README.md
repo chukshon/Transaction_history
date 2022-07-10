@@ -38,14 +38,31 @@ http://localhost:9002/graphql
 
 # `Frontend`
 
-React & ReactDOM 18.2.0
-urql 2.2.2
-Graphql 16.5.0
-TypeScript 4.7.4
-Material UI 5.8.7
-React-icons 4.4.0
+#### `Packages`
+
+React & ReactDOM 18.2.0<br>
+urql 2.2.2<br>
+Graphql 16.5.0 <br>
+TypeScript 4.7.4 <br>
+Material UI 5.8.7 <br>
+React-icons 4.4.0<br>
 
 #### `Usage`
+
+To install dependencies:
+
+```
+npm install or yarn
+```
+
+To start the server:
+
+```
+npm start or yarn start
+```
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## `Functionalities`
 
@@ -57,3 +74,7 @@ Two helper functions were used
 1. Date formatter: This is used to format raw date strings to year. It takes a raw date string and converts it to a year.
 
 2. Year Grouping: This function takes in an array of data and groups it by year.
+
+## `Improvement Suggestion`
+
+I'll suggest a pagination or load more button is added to each date group there by limiting the amount of data shown to just 5-7 transaction history per date group. This way, a user gets to see more transaction history by clicking the load more button or paginating
