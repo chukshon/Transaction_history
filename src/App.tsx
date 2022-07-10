@@ -83,7 +83,7 @@ function App() {
         </Filter>
       </FilterGroup>
 
-      {groupData(filtered).map((e, i) => {
+      {groupData(filtered).map((group, i) => {
         return (
           <div key={i}>
             <h4
@@ -96,22 +96,22 @@ function App() {
                 padding: '20px 20px',
               }}
             >
-              {e[0].year}
+              {group[0].year}
             </h4>
-            {e.map((g: TransferType) => {
+            {group.map((data: TransferType) => {
               return (
                 <Card
                   completedImg={completedImg}
                   failedImg={failedImg}
-                  data={g}
+                  data={data}
                   nameIcon={<AiOutlineUserAdd />}
                   typeIcon={
-                    g.type === 'deposit' ? <ImArrowUp2 /> : <ImArrowDown2 />
+                    data.type === 'deposit' ? <ImArrowUp2 /> : <ImArrowDown2 />
                   }
                   statusIcon={
-                    g.status === 'successful' ? <GrCheckmark /> : <GrClose />
+                    data.status === 'successful' ? <GrCheckmark /> : <GrClose />
                   }
-                  key={g.id}
+                  key={data.id}
                 />
               )
             })}
