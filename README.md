@@ -40,12 +40,18 @@ http://localhost:9002/graphql
 
 #### `Packages`
 
-React & ReactDOM 18.2.0<br>
-urql 2.2.2<br>
-Graphql 16.5.0 <br>
-TypeScript 4.7.4 <br>
-Material UI 5.8.7 <br>
-React-icons 4.4.0<br>
+[React & ReactDOM 18.2.0](https://reactjs.org/)<br>
+
+[urql 2.2.2](https://formidable.com/open-source/urql/)<br>
+
+[Graphql 16.5.0](https://graphql.org/)<br>
+
+[TypeScript 4.7.4](https://www.typescriptlang.org/)<br>
+
+[Material UI 5.8.7](https://mui.com/)
+<br>
+
+[React-icons 4.4.0](https://react-icons.github.io/react-icons/)<br>
 
 #### `Usage`
 
@@ -66,8 +72,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## `Functionalities`
 
-1. A user can filter by transaction type(deposit or withdrawal), transaction status(successful or failed)
-   Urql was used for consuming the backend api
+1. A user can filter by transaction type(deposit or withdrawal), transaction status(successful or failed) and date(2017- 2021)
+
+2. A user can search by transaction name, type or status and date
+
+3. Urql was used for consuming the backend api
+
+## `Helper Functions`
 
 Two helper functions were used
 
