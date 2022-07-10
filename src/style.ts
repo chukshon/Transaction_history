@@ -8,6 +8,7 @@ export const Wrapper = styled('main')`
   margin: 0 auto;
   border: 4px solid #101f55;
   padding: 0px 20px;
+  font-family: 'Poppins', sans-serif;
 `
 
 export const StyledSearch = styled('input')`

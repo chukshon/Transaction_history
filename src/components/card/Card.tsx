@@ -27,7 +27,7 @@ const Card: React.FC<CardType> = ({ completedImg, failedImg, data, nameIcon, typ
           marginBottom: '10px',
         }}
       >
-        {data.status === 'completed' ? (
+        {data.status === 'successful' ? (
           <img src={completedImg} alt='successful' />
         ) : (
           <img src={failedImg} alt='failed' />
